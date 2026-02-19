@@ -1,0 +1,40 @@
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">Top Page</a>
+
+    <div class="nav-right">
+      <div class="lang-toggle" data-lang-toggle aria-label="Language">
+        <a class="lang-btn" data-lang="ja" href="index.html">JP</a>
+        <a class="lang-btn" data-lang="en" href="about-en.html">EN</a>
+      </div>
+
+      <button
+        class="hamburger"
+        type="button"
+        aria-label="メニューを開く"
+        aria-controls="site-menu"
+        aria-expanded="false"
+      >
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </button>
+    </div>
+
+    <nav id="site-menu" class="menu" data-open="false">
+      <!-- JP pages -->
+      <a data-jp-only href="index.html">トップ</a>
+      <a data-jp-only href="cv.html">経歴</a>
+      <a data-jp-only href="research.html">研究実績</a>
+      <a data-jp-only href="projects.html">プログラミング実績</a>
+
+      <span class="menu-sep" aria-hidden="true"></span>
+
+      <!-- EN pages -->
+      <a data-en href="about-en.html">About (EN)</a>
+      <a data-en href="cv-en.html">CV (EN)</a>
+    </nav>
+  </div>
+
+  <div class="menu-overlay" data-menu-overlay hidden></div>
+</header>

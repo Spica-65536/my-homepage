@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Website</title>
+  <meta name="description" content="内山裕太のホームページです" />
+  <meta property="og:title" content="Personal Website" />
+  <meta property="og:description" content="研究実績・経歴・制作物" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/profile.jpg" />
+
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="assets/style.css" />
+  <script defer src="assets/main.js"></script>
+</head>
+<body>
+  <div data-include="partials/header.html"></div>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <p class="badge">Graduate Student（M1）</p>
+          <h1>所属</h1>
+          <h3>千葉工業大学大学院 情報科学研究科<br>
+            東本研究室
+          </h3><hr>
+          <p class="lead">
+            研究キーワード：数学，学習支援，知識の構造化と再利用<br><br>
+            数学学習における有用な学習手法の考案と，それらを実現するための学習支援システムの開発を行っています．
+          </p>
+
+          <div class="hero-links">
+            <a class="btn" href="research.html">研究を見る</a>
+            <a class="btn ghost" href="projects.html">制作物を見る</a>
+          </div>
+        </div>
+
+        <figure class="avatar">
+          <img src="assets/images/profile.jpg" alt="プロフィール写真" />
+          <figcaption>
+            研究分野：学習支援工学<br>
+            研究キーワード：数学，学習支援，知識の構造化と再利用
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>概要</h2>
+      </div>
+      <p class="lead">
+        　数学を題材とした学習支援を行っている理由としては，自身が数学科の教員を目指していた過去があるからです．数学は「難しい」「わからない」という感情が生まれやすく，1度躓いてしまうと立て直しづらい科目だと思います．難しい問題でも，「自分の知識で解けるんだ！」という気付きを与え，少しでも苦手意識を克服するための手助けができればと思いながら活動しています．<br>
+        　研究室外の活動として，塾講師をやっています．人に何かを教えたり，サポートすることが好きです．研究室内でも後輩指導により力を入れています．<hr>
+      </p>
+    </section>
+
+    <section class="grid3" aria-label="Highlights">
+      <article class="card">
+        <h3>研究概要</h3>
+        <p>
+          「図形の証明学習における知識部品化を支援する学習支援システムの開発」
+        </p><hr>
+        <p>
+          図形の証明学習では既習知識の適用判断や推論の連鎖構成が難しく，手順の暗記に陥ることで論理の飛躍が生じやすい．本研究では，図形の定義や性質を知識部品としてモデル化し，推論の各ステップに対応付けて可視化し，フィードバックする学習支援システムの開発を目的とする．
+        </p>
+      </article>
+      <article class="card">
+        <h3>研究実績</h3>
+        <p>内山裕太, 古池謙人, 東本崇仁: "問題構造に基づく構造の部分的再利用を指向した学習支援システムの設計・提案", 人工知能学会第105回先進的学習科学と工学研究会（SIG-ALST）, pp.42-46, (2025/11)</p><br>
+        <a href="assets/researches/ALST_105_poster.pdf" target="_blank" rel="noreferrer">発表ポスター</a>
+      </article>
+      <article class="card">
+        <h3>言語経験</h3>
+        <ul>
+          <li>C#（卒業研究）</li>
+          <li>Python（卒業研究，TA）</li>
+          <li>Java（学部講義）</li>
+          <li>JavaScript（趣味程度）</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2>連絡先関係</h2>
+      <p>
+        Email：yuta0918.mugi.sub[at]gmail.com<br>
+        GitHub：<a href="https://github.com/Spica-cit" target="_blank" rel="noreferrer">https://github.com/Spica-cit</a><br>
+        Instagram：<a href="https://www.instagram.com/spica_65536" target="_blank" rel="noreferrer">https://www.instagram.com/spica_65536</a>
+      </p>
+    </section>
+  </main>
+
+  <div data-include="partials/footer.html"></div>
+</body>
+</html>
