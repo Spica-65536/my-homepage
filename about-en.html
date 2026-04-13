@@ -3,13 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About | Personal Website</title>
-
-  <meta name="description" content="Personal website of Yuta Uchiyama." />
-  <meta property="og:title" content="About | Personal Website" />
-  <meta property="og:description" content="Research, CV, and projects." />
+  <title>Personal Website</title>
+  <meta name="description" content="This is the personal website of Yuta Uchiyama." />
+  <meta property="og:title" content="Personal Website" />
+  <meta property="og:description" content="Research achievements, background, and projects" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="assets/images/profile.jpg" />
+
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
 
   <link rel="stylesheet" href="assets/style.css" />
   <script defer src="assets/main.js"></script>
@@ -21,27 +23,28 @@
     <section class="hero">
       <div class="hero-grid">
         <div>
-          <p class="badge">Graduate Student (M.S. 1st year / M1)</p>
-
+          <p class="badge">Graduate Student (M1)</p>
           <h1>Affiliation</h1>
           <h3>
-            <a href="https://chibatech.jp/" target="_blank" rel="noreferrer" class="black">Graduate School of Information Science, Chiba Institute of Technology</a><br>
-            <a href="https://www.takahito.com/" target="_blank" rel="noreferrer" class="black">Tomoto Laboratory(Learning Engineering Laboratory)</a>
-          </h3>
-          <hr>
-
+            <a href="https://chibatech.jp/" target="_blank" rel="noreferrer" class="black">Graduate School of Information and Computer Science, Chiba Institute of Technology</a><br>
+            <a href="https://www.takahito.com/" target="_blank" rel="noreferrer" class="black">Tomoto Laboratory (Learning Engineering Laboratory)</a>
+          </h3><hr>
           <p class="lead">
-            Keywords: Mathematics, Learning Support, Structuring & Reuse of Knowledge<br><br>
-            I study effective learning methods in mathematics education and develop learning support systems
-            to implement and evaluate those methods.
+            Research Keywords: Mathematics, Learning Support<br><br>
+            I conduct research on designing effective learning methods for mathematics education and developing learning support systems to implement them.
           </p>
+
+          <div class="hero-links">
+            <a class="btn" href="research.html">View Research</a>
+            <a class="btn ghost" href="projects.html">View Projects</a>
+          </div>
         </div>
 
         <figure class="avatar">
           <img src="assets/images/profile.jpg" alt="Profile photo" />
           <figcaption>
-            Research area: Learning Support Engineering<br>
-            Keywords: Mathematics, Learning Support, Structuring & Reuse of Knowledge
+            Research Field: Learning Support Engineering<br>
+            Research Keywords: Mathematics, Learning Support
           </figcaption>
         </figure>
       </div>
@@ -49,58 +52,35 @@
 
     <section class="section">
       <div class="section-head">
-        <h2>About Me</h2>
+        <h2>Overview</h2>
       </div>
-
       <p>
-        I work on learning support for mathematics because I once aimed to become a mathematics teacher.
-        Mathematics often makes learners feel “it’s difficult” or “I don’t understand,” and once someone gets stuck,
-        it can be hard to recover. Through my research and development, I hope to help learners notice
-        “I can solve this using what I already know,” and reduce their anxiety toward mathematics.
-        <br><br>
-        Outside my laboratory work, I teach as a private tutor (cram school instructor). I enjoy teaching and
-        supporting others, and I also focus on mentoring junior members in my lab.
+        　One of the reasons I focus on learning support using mathematics as a subject is that I once aspired to become a mathematics teacher. Mathematics is a subject that often gives rise to feelings such as “It is difficult” or “I do not understand,” and once students stumble, it can be hard for them to recover. Through my work, I hope to help learners realize that even difficult problems can be solved using their own knowledge, and to support them in overcoming their anxiety toward mathematics.<br>
+        　Outside the laboratory, I work as a tutor at a cram school. I enjoy teaching and supporting others, and I also place strong emphasis on mentoring junior students in the laboratory.<hr>
       </p>
-
-      <hr>
     </section>
 
     <section class="grid3" aria-label="Highlights">
-      <article class="card">
-        <h3>Research Overview</h3>
+      <!-- <article class="card">
+        <h3>研究概要</h3>
         <p>
-          “Development of a Learning Support System to Facilitate Modularization of Knowledge
-          in Geometric Proof Learning”
-        </p>
-        <hr>
+          研究名
+        </p><hr>
         <p>
-          In learning geometric proofs, it is often difficult to decide which prior knowledge to apply and to
-          construct a chain of reasoning. As a result, learners may rely on memorizing procedures, which can
-          cause logical gaps. This research aims to develop a learning support system that models definitions
-          and properties as modular “knowledge components,” maps them to each step of inference, visualizes
-          the structure of reasoning, and provides feedback.
+          概要
         </p>
       </article>
-
       <article class="card">
-        <h3>Publication / Presentation</h3>
-        <p>
-          Yuta Uchiyama, Kento Koike, Takahito Tomoto:
-          “Design and Proposal of a Learning Support System Aimed at Partial Reuse of Structure
-          Based on Problem Structure,”
-          The 105th SIG-ALST (JSAI), pp.42–46, (Nov 2025)
-        </p>
-        <br>
-        <a href="assets/researches/ALST_105_poster.pdf" target="_blank" rel="noreferrer">Poster (PDF)</a>
-      </article>
-
+        <h3>研究実績</h3>
+        <p>発表名</p>
+      </article> -->
       <article class="card">
         <h3>Programming Experience</h3>
         <ul>
-          <li>C# (Undergraduate thesis)</li>
-          <li>Python (Undergraduate thesis, Teaching Assistant)</li>
-          <li>Java (Undergraduate courses)</li>
-          <li>JavaScript (Hobby level)</li>
+          <li>C# (Undergraduate Thesis)</li>
+          <li>Python (Undergraduate Thesis, Teaching Assistant)</li>
+          <li>Java (Undergraduate Courses)</li>
+          <li>JavaScript (Personal Use)</li>
         </ul>
       </article>
     </section>
